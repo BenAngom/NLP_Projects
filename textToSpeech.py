@@ -11,7 +11,7 @@ def text_to_speech(text,accent="en",c=0):
 st.title("🔊 Text-to-Speech Converter")
 st.markdown("Convert your text into speech easily!")
 
-text_input=st.text_area("Enter text to convert to speech:", "Hello, this is a Text-to-Speech demo!")
+text_input=st.text_area("Enter text to convert to speech:", "Hello, this is a Text-to-Speech demo statement!")
 accent=st.selectbox("Select Accent :", ["en", "hi", "es", "fr", "de", "zh"])
 
 c=0
